@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./reverse.component.css'],
 })
 export class ReverseComponent {
-  inputString: string = '';
+  inputString2: string = '';
   reversString: string = '';
   reverse() {
-    this.reversString = this.inputString.split('').reverse().join('');
+    this.reversString = this.inputString2.split('').reverse().join('');
   }
 }
